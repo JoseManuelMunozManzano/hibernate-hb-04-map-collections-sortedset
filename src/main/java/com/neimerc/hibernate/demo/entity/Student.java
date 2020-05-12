@@ -31,10 +31,13 @@ public class Student {
 
 	@ElementCollection
 	@CollectionTable(name = "image")
-	@org.hibernate.annotations.OrderBy(clause = "file_name")	// default asc
+	@org.hibernate.annotations.OrderBy(clause = "file_name DESC")	// default asc
 	@Column(name = "file_name")
-	private Set<String> images = new LinkedHashSet<>();
+	private Set<String> images = new LinkedHashSet<>();	
 	
+	public Student() {
+	}
+
 	public Student(String firstName, String lastName, String email) {
 		super();
 		this.firstName = firstName;
