@@ -6,7 +6,7 @@ import org.hibernate.cfg.Configuration;
 
 import com.neimerc.hibernate.demo.entity.Student;
 
-public class GetStudentImagesDemo {
+public class GetStudentImagesDemo  {
 
 	public static void main(String[] args) {
 		// create session factory

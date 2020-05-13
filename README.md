@@ -1,5 +1,5 @@
 # HIBERNATE - MAPPING SORTED SETS
-This repository holds hibernate code example for mapping maps
+This repository holds hibernate code example for mapping sorted sets
 
 We use  @OrderBy, that specifies the ordering of the elements when a collection is retrieved.
 
